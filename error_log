@@ -1,0 +1,10 @@
+[11-Jan-2019 11:45:38 America/Chicago] PHP Notice:  Undefined variable: mensaje in /home/websidi1/public_html/sendmail.php on line 5
+[11-Jan-2019 15:12:44 America/Chicago] PHP Notice:  Undefined variable: mensaje in /home/websidi1/public_html/sendmail.php on line 5
+[11-Jan-2019 15:12:44 America/Chicago] PHP Notice:  Undefined index: nombre in /home/websidi1/public_html/sendmail.php on line 6
+[11-Jan-2019 15:12:44 America/Chicago] PHP Notice:  Undefined index: correo in /home/websidi1/public_html/sendmail.php on line 7
+[11-Jan-2019 15:12:44 America/Chicago] PHP Notice:  Undefined index: tel in /home/websidi1/public_html/sendmail.php on line 8
+[11-Jan-2019 15:12:44 America/Chicago] PHP Notice:  Undefined index: mensaje in /home/websidi1/public_html/sendmail.php on line 9
+[11-Jan-2019 15:12:44 America/Chicago] PHP Notice:  Undefined index: nombre in /home/websidi1/public_html/sendmail.php on line 15
+[11-Jan-2019 15:12:44 America/Chicago] PHP Notice:  Undefined index: correo in /home/websidi1/public_html/sendmail.php on line 16
+[13-Jan-2019 14:22:13 America/Chicago] PHP Notice:  Undefined variable: mensaje in /home/websidi1/public_html/sendmail.php on line 5
+[13-Jan-2019 14:23:18 America/Chicago] PHP Notice:  Undefined variable: mensaje in /home/websidi1/public_html/sendmail.php on line 5

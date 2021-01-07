@@ -385,10 +385,29 @@ hr {
 ---------------------------------*/
 
 .sec_inicio {
+	background: url('../imgs/bg.jpg') no-repeat center;
+	background-size: cover;	
+	background-attachment: fixed;
 	height: 100vh;
-	background-color: #222222; 
 	min-height: 580px;
 	position: relative;
+}
+
+.sec_inicio:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+background: rgba(0,5,31,0.93);
+background: -moz-linear-gradient(-45deg, rgba(0,5,31,0.93) 0%, rgba(0,5,31,0.92) 24%, rgba(1,8,48,0.91) 61%, rgba(1,7,74,0.9) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,5,31,0.93)), color-stop(24%, rgba(0,5,31,0.92)), color-stop(61%, rgba(1,8,48,0.91)), color-stop(100%, rgba(1,7,74,0.9)));
+background: -webkit-linear-gradient(-45deg, rgba(0,5,31,0.93) 0%, rgba(0,5,31,0.92) 24%, rgba(1,8,48,0.91) 61%, rgba(1,7,74,0.9) 100%);
+background: -o-linear-gradient(-45deg, rgba(0,5,31,0.93) 0%, rgba(0,5,31,0.92) 24%, rgba(1,8,48,0.91) 61%, rgba(1,7,74,0.9) 100%);
+background: -ms-linear-gradient(-45deg, rgba(0,5,31,0.93) 0%, rgba(0,5,31,0.92) 24%, rgba(1,8,48,0.91) 61%, rgba(1,7,74,0.9) 100%);
+background: linear-gradient(135deg, rgba(0,5,31,0.93) 0%, rgba(0,5,31,0.92) 24%, rgba(1,8,48,0.91) 61%, rgba(1,7,74,0.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00051f', endColorstr='#01074a', GradientType=1 );
 }
 
 .bg_video{
@@ -410,10 +429,12 @@ hr {
 }
 
 /*style="background-image:url('imgs/bg2.jpg');"*/
-.bg_item {
+/*.bg_item {
+    background:url('../imgs/bg.jpg') no-repeat center;
+    background-size: cover;
 	height: 100vh;
 	min-height: 580px !important;
-}
+}*/
 
 .owl-pagination{
 	position: relative;
@@ -739,7 +760,14 @@ box-shadow: 0px 4px 13px -2px rgba(143,143,143,1);
 		SECC SOLUCIONES
 ---------------------------------*/
 .sec_soluciones{
-	background: rgba(1, 2, 14, 0.9);
+background: rgba(1,7,74,0.9);
+background: -moz-linear-gradient(-45deg, rgba(1,7,74,0.9) 0%, rgba(1,8,48,0.91) 39%, rgba(0,5,31,0.92) 76%, rgba(0,5,31,0.93) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(1,7,74,0.9)), color-stop(39%, rgba(1,8,48,0.91)), color-stop(76%, rgba(0,5,31,0.92)), color-stop(100%, rgba(0,5,31,0.93)));
+background: -webkit-linear-gradient(-45deg, rgba(1,7,74,0.9) 0%, rgba(1,8,48,0.91) 39%, rgba(0,5,31,0.92) 76%, rgba(0,5,31,0.93) 100%);
+background: -o-linear-gradient(-45deg, rgba(1,7,74,0.9) 0%, rgba(1,8,48,0.91) 39%, rgba(0,5,31,0.92) 76%, rgba(0,5,31,0.93) 100%);
+background: -ms-linear-gradient(-45deg, rgba(1,7,74,0.9) 0%, rgba(1,8,48,0.91) 39%, rgba(0,5,31,0.92) 76%, rgba(0,5,31,0.93) 100%);
+background: linear-gradient(135deg, rgba(1,7,74,0.9) 0%, rgba(1,8,48,0.91) 39%, rgba(0,5,31,0.92) 76%, rgba(0,5,31,0.93) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01074a', endColorstr='#00051f', GradientType=1 );
 	color: #fff;
 	padding: 4.5em 0 4em;
 }
@@ -826,7 +854,15 @@ box-shadow: 0px 4px 13px -2px rgba(143,143,143,1);
 }
 
 .contorno .price {
-	background: #111111;
+	/*background: #111111;*/
+background: rgba(0,5,31,1);
+background: -moz-linear-gradient(-45deg, rgba(0,5,31,1) 0%, rgba(0,5,31,1) 24%, rgba(1,8,48,1) 61%, rgba(1,5,54,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(0,5,31,1)), color-stop(24%, rgba(0,5,31,1)), color-stop(61%, rgba(1,8,48,1)), color-stop(100%, rgba(1,5,54,1)));
+background: -webkit-linear-gradient(-45deg, rgba(0,5,31,1) 0%, rgba(0,5,31,1) 24%, rgba(1,8,48,1) 61%, rgba(1,5,54,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(0,5,31,1) 0%, rgba(0,5,31,1) 24%, rgba(1,8,48,1) 61%, rgba(1,5,54,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(0,5,31,1) 0%, rgba(0,5,31,1) 24%, rgba(1,8,48,1) 61%, rgba(1,5,54,1) 100%);
+background: linear-gradient(135deg, rgba(0,5,31,1) 0%, rgba(0,5,31,1) 24%, rgba(1,8,48,1) 61%, rgba(1,5,54,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00051f', endColorstr='#010536', GradientType=1 );
 	padding: 1em 0;
 	color: #eeeeee !important;
 }
@@ -1020,34 +1056,32 @@ box-shadow: 0px 4px 13px -2px rgba(143,143,143,1);
 	background-image: url(../imgs/portafolio/dw_8.png);
 }
 
-.bg_port_aw_1{
-	background-image: url(../imgs/portafolio/aw_1.png);
+.bg_port_dw_9{
+	background-image: url(../imgs/portafolio/dw_9.png);
 }
 
 .item_info {
-background: rgba(0,0,0,0.1);
-background: -moz-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 72%, rgba(0,0,0,0.9) 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.1)), color-stop(72%, rgba(0,0,0,0.9)), color-stop(100%, rgba(0,0,0,0.9)));
-background: -webkit-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 72%, rgba(0,0,0,0.9) 100%);
-background: -o-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 72%, rgba(0,0,0,0.9) 100%);
-background: -ms-linear-gradient(top, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 72%, rgba(0,0,0,0.9) 100%);
-background: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.9) 72%, rgba(0,0,0,0.9) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+
+background: rgba(0,16,34,0);
+background: -moz-linear-gradient(top, rgba(0,16,34,0) 23%, rgba(0,16,34,0.19) 32%, rgba(0,5,21,0.8) 61%, rgba(0,4,20,0.81) 63%, rgba(0,4,20,0.94) 88%, rgba(0,4,20,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(23%, rgba(0,16,34,0)), color-stop(32%, rgba(0,16,34,0.19)), color-stop(61%, rgba(0,5,21,0.8)), color-stop(63%, rgba(0,4,20,0.81)), color-stop(88%, rgba(0,4,20,0.94)), color-stop(100%, rgba(0,4,20,1)));
+background: -webkit-linear-gradient(top, rgba(0,16,34,0) 23%, rgba(0,16,34,0.19) 32%, rgba(0,5,21,0.8) 61%, rgba(0,4,20,0.81) 63%, rgba(0,4,20,0.94) 88%, rgba(0,4,20,1) 100%);
+background: -o-linear-gradient(top, rgba(0,16,34,0) 23%, rgba(0,16,34,0.19) 32%, rgba(0,5,21,0.8) 61%, rgba(0,4,20,0.81) 63%, rgba(0,4,20,0.94) 88%, rgba(0,4,20,1) 100%);
+background: -ms-linear-gradient(top, rgba(0,16,34,0) 23%, rgba(0,16,34,0.19) 32%, rgba(0,5,21,0.8) 61%, rgba(0,4,20,0.81) 63%, rgba(0,4,20,0.94) 88%, rgba(0,4,20,1) 100%);
+background: linear-gradient(to bottom, rgba(0,16,34,0) 23%, rgba(0,16,34,0.19) 32%, rgba(0,5,21,0.8) 61%, rgba(0,4,20,0.81) 63%, rgba(0,4,20,0.94) 88%, rgba(0,4,20,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001022', endColorstr='#000414', GradientType=0 );
 	padding: 11em 0 .5em 1em;
 	-webkit-transition: all .3s ease-out;
 	transition: all .3s ease-out;
-	border-bottom: .20em solid #3ca23d;
+	-webkit-box-shadow: 0px 5px 0px 0px rgba(60,162,61,1);
+	-moz-box-shadow: 0px 5px 0px 0px rgba(60,162,61,1);
+	box-shadow: 0px 5px 0px 0px rgba(60,162,61,1);
 }
 
 .item_info:hover {
-background: rgba(0,0,0,0.8);
-background: -moz-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.9) 87%, rgba(0,0,0,0.9) 91%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.8)), color-stop(87%, rgba(0,0,0,0.9)), color-stop(91%, rgba(0,0,0,0.9)));
-background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.9) 87%, rgba(0,0,0,0.9) 91%);
-background: -o-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.9) 87%, rgba(0,0,0,0.9) 91%);
-background: -ms-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.9) 87%, rgba(0,0,0,0.9) 91%);
-background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.9) 87%, rgba(0,0,0,0.9) 91%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+	-webkit-box-shadow: 0px 0px 0px 5px rgba(60,162,61,1);
+	-moz-box-shadow: 0px 0px 0px 5px rgba(60,162,61,1);
+	box-shadow: 0px 0px 0px 5px rgba(60,162,61,1);
 }
 
 .item_caption{
@@ -1056,6 +1090,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 .fancybox-caption {
 	border: 0;
+}
+
+.item_info h3{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .item_info h3,
@@ -1610,7 +1650,7 @@ footer a{
 
 }
 
-@media screen and (max-width: 389px){
+@media screen and (max-width: 380px){
 	
 	.ttl_acerca.wsd_type{
 		font-size: 4rem;
@@ -1618,6 +1658,9 @@ footer a{
 
 	.ttl_home{
 		font-size: 5rem;
+	}
+	.ttl_home_welc{
+		font-size: 2.5rem;
 	}
 
 }

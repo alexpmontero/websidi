@@ -1060,6 +1060,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00051f', end
 	background-image: url(../imgs/portafolio/dw_9.png);
 }
 
+.bg_port_dw_10{
+	background-image: url(../imgs/portafolio/dw_10.png);
+}
+
+.bg_port_dw_11{
+	background-image: url(../imgs/portafolio/dw_11.png);
+}
+
 .item_info {
 
 background: rgba(0,16,34,0);

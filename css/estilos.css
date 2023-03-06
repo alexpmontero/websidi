@@ -1045,7 +1045,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00051f', end
 .bg_port_dw_5{
 	background-image: url(../imgs/portafolio/dw_5.png);
 }
-
 .bg_port_dw_6{
 	background-image: url(../imgs/portafolio/dw_6.png);
 }
@@ -1055,21 +1054,23 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00051f', end
 .bg_port_dw_8{
 	background-image: url(../imgs/portafolio/dw_8.png);
 }
-
 .bg_port_dw_9{
 	background-image: url(../imgs/portafolio/dw_9.png);
 }
-
 .bg_port_dw_10{
 	background-image: url(../imgs/portafolio/dw_10.png);
 }
-
 .bg_port_dw_11{
 	background-image: url(../imgs/portafolio/dw_11.png);
 }
+.bg_port_dw_12{
+	background-image: url(../imgs/portafolio/dw_12.png);
+}
+.bg_port_dw_13{
+	background-image: url(../imgs/portafolio/dw_13.png);
+}
 
 .item_info {
-
 background: rgba(0,16,34,0);
 background: -moz-linear-gradient(top, rgba(0,16,34,0) 23%, rgba(0,16,34,0.19) 32%, rgba(0,5,21,0.8) 61%, rgba(0,4,20,0.81) 63%, rgba(0,4,20,0.94) 88%, rgba(0,4,20,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(23%, rgba(0,16,34,0)), color-stop(32%, rgba(0,16,34,0.19)), color-stop(61%, rgba(0,5,21,0.8)), color-stop(63%, rgba(0,4,20,0.81)), color-stop(88%, rgba(0,4,20,0.94)), color-stop(100%, rgba(0,4,20,1)));
